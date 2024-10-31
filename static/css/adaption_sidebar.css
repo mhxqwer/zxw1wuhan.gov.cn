@@ -1,0 +1,149 @@
+.float-nav-box.mobil {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  .footer-wrap {
+    margin-bottom: 65px;
+  }
+  body .red .float-nav-box {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+  }
+  body .red .float-nav-box.mobil {
+    display: flex;
+    background-color: #fff;
+  }
+  body .red .float-nav-box .item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  body .red .float-nav-box .item .show-item {
+    display: none !important;
+  }
+  body .red .float-nav-box .item.wechat span {
+    background-image: url(../images/r_1_1.png);
+  }
+  body .red .float-nav-box .item.wechat::after {
+    content: '武汉发布微信';
+    display: block;
+  }
+  body .red .float-nav-box .item.weibo span {
+    background-image: url(../images/r_2_1.png);
+  }
+  body .red .float-nav-box .item.weibo::after {
+    content: '武汉发布微博';
+    display: block;
+  }
+  body .red .float-nav-box .item.app span {
+    background-image: url(../images/r_3_1.png);
+  }
+  body .red .float-nav-box .item.app::after {
+    content: '移动端';
+    display: block;
+  }
+  body .red .float-nav-box .item.handicapped {
+    display: none;
+  }
+  body .red .float-nav-box .item.handicapped span {
+    background-image: url(../images/r_4_1.png);
+  }
+  body .red .float-nav-box .item.handicapped::after {
+    content: '无障碍阅读';
+    display: block;
+  }
+  body .red .float-nav-box .item.goTop {
+    opacity: 1;
+  }
+  body .red .float-nav-box .item.goTop::after {
+    content: '返回顶部';
+    display: block;
+  }
+  body .red .float-nav-box .item.goTop span {
+    background-image: url(../images/r_5_1.png);
+  }
+  body .float-nav-box {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+  }
+  body .float-nav-box.mobil {
+    display: flex;
+    background-color: #fff;
+    height: 65px;
+  }
+  body .float-nav-box .item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  body .float-nav-box .item span {
+    box-shadow: none;
+    height: 36px;
+    border-radius: 0;
+  }
+  body .float-nav-box .item .show-item {
+    display: none !important;
+  }
+  body .float-nav-box .item.backup span {
+    background-image: url(../images/r_0_1.png);
+  }
+  body .float-nav-box .item.backup::after {
+    content: '返回';
+    display: block;
+  }
+  body .float-nav-box .item.wechat span {
+    background-image: url(../images/r_1_1.png);
+  }
+  body .float-nav-box .item.wechat::after {
+    content: '武汉发布微信';
+    display: block;
+  }
+  body .float-nav-box .item.weibo span {
+    background-image: url(../images/r_2_1.png);
+  }
+  body .float-nav-box .item.weibo::after {
+    content: '武汉发布微博';
+    display: block;
+  }
+  body .float-nav-box .item.app span {
+    background-image: url(../images/r_3_1.png);
+  }
+  body .float-nav-box .item.app::after {
+    content: '移动端';
+    display: block;
+  }
+  body .float-nav-box.mobil .item.app{
+    display: flex;
+  }
+  body .float-nav-box .item.handicapped {
+    display: none;
+  }
+  body .float-nav-box .item.handicapped span {
+    background-image: url(../images/r_4_1.png);
+  }
+  body .float-nav-box .item.handicapped::after {
+    content: '无障碍阅读';
+    display: block;
+  }
+  body .float-nav-box .item.goTop {
+    opacity: 1;
+  }
+  body .float-nav-box .item.goTop::after {
+    content: '返回顶部';
+    display: block;
+  }
+  body .float-nav-box .item.goTop span {
+    background-image: url(../images/r_5_1.png);
+  }
+}

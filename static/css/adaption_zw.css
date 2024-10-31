@@ -1,0 +1,132 @@
+.shareWrapper .interactive span {
+  cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  .zt_detailList .w {
+    width: 680px;
+  }
+  .zt_detailList .articleWrapper .articleHead .sub .print {
+    display: none;
+  }
+  .zt_detailList .articleWrapper .articleHead h2 {
+    width: 100%;
+    font-size: 32px;
+  }
+  .zt_detailList .articleWrapper .articleHead h2.subTitle {
+    font-size: 28px;
+  }
+  .zt_detailList .abouts ul li .title {
+    max-width: 480px;
+  }
+  .zt_detailList .articleWrapper .articleHead .left {
+    float: none;
+  }
+  .zt_detailList .articleWrapper .articleHead .interactive {
+    float: none;
+  }
+  .zt_detailList .articleWrapper .articleHead .interactive .print {
+    display: none;
+  }
+  .zt_detailList .articleWrapper .articleHead .articleInfo {
+    width: auto;
+  }
+  .zt_detailList .articleWrapper .articleHead .articleInfo ul li {
+    width: 49%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .zt_detailList .interactive .scan {
+    display: none;
+  }
+  .zt_detailList .TRS_Editor div {
+    font-size: 14px;
+  }
+  .zt_detailList .TRS_Editor div span {
+    font-size: 14px;
+  }
+  .zt_detailList .TRS_Editor div p {
+    font-size: 14px;
+    /* text-indent: 0 !important; */
+  }
+  .zt_detailList .TRS_Editor img {
+    max-width: 100% !important;
+				height: auto !important;
+  }
+  .zt_detailList .TRS_Editor iframe {
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-width: 680px) {
+  .zt_detailList .w {
+    width: 100%;
+  }
+  .zt_detailList .articleWrapper {
+    padding: 30px 15px;
+  }
+  .zt_detailList .articleWrapper .articleHead .sub .resourse {
+    display: block;
+    margin-right: 0;
+  }
+  .zt_detailList .navInfo {
+    padding-left: 15px;
+  }
+  .zt_detailList .articleWrapper .articleHead h2 {
+    font-size: 24px;
+  }
+  .zt_detailList .articleWrapper .articleHead h2.subTitle {
+    font-size: 20px;
+  }
+  .zt_detailList .fxd_con .bdshare-button-style0-32 .bds_weixin {
+    display: none;
+  }
+  .zt_detailList .articleWrapper .articleHead .share {
+    margin-left: 0;
+  }
+  .zt_detailList .abouts {
+    padding: 0 15px 30px 15px;
+  }
+  .zt_detailList .abouts ul li .title {
+    max-width: calc(100% - 100px);
+    font-size: 14px;
+  }
+  .zt_detailList .abouts ul li .time {
+    font-size: 12px;
+    transform: translateY(4px);
+  }
+  .zt_detailList .abouts .subTitle {
+    font-size: 16px;
+  }
+  .zt_detailList .abouts .subTitle::before {
+    height: 16px;
+    width: 2px;
+  }
+  .zt_detailList .articleWrapper .articleHead .articleInfo ul li {
+    width: 100%;
+  }
+  .zt_detailList .TRS_Editor {
+    overflow-x: scroll;
+  }
+  .zt_detailList .TRS_Editor div {
+    font-size: 14px;
+  }
+  .zt_detailList .TRS_Editor div span {
+    font-size: 14px;
+  }
+  .zt_detailList .TRS_Editor div p {
+    font-size: 14px;
+    /* text-indent: 0; */
+  }
+  .zt_detailList .articleWrapper .articleHead .f-tit {
+    font-size: 16px;
+  }
+  .zt_detailList .article-footer ul li a {
+    font-size: 14px;
+  }
+  .zt_detailList .shareWrapper {
+    font-size: 14px;
+  }
+}

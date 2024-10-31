@@ -1,0 +1,153 @@
+.TRS_Editor .TRS_Editor P {
+    font-size: 12pt;
+    margin: 10px 0px;
+    padding: 0px;
+    font-family: 宋体, SimSun;
+    white-space: normal;
+    /* text-indent: 2em; */
+    line-height: 1.5em;
+}
+
+.TRS_Editor .TRS_Editor DIV {
+    line-height: 1.5;
+    font-family: 宋体;
+    font-size: 12pt;
+}
+
+.TRS_Editor .TRS_Editor table {
+    padding: 5px 10px;
+    border: 1px solid #DDD;
+    word-break: break-all;
+    margin: 0px auto 10px auto;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    display: table;
+}
+
+.TRS_Editor .TRS_Editor TD {
+    padding: 5px 10px;
+    border: 1px solid #DDD;
+    word-break: break-all;
+    line-height: 1.5;
+    font-family: 宋体;
+    font-size: 12pt;
+}
+.TRS_Editor .TRS_Editor TH {
+    padding: 5px 10px;
+    border: 1px solid #DDD;
+    word-break: break-all;
+    line-height: 1.5;
+    font-family: 宋体;
+    font-size: 12pt;
+}
+
+.TRS_Editor .TRS_Editor TSPAN {
+    line-height: 1.5;
+    font-family: 宋体;
+    font-size: 12pt;
+}
+.TRS_Editor .TRS_Editor FONT {
+    line-height: 1.5;
+    font-family: 宋体;
+    font-size: 12pt;
+}
+.TRS_Editor .TRS_Editor A {
+    line-height: 1.5;
+    font-family: 宋体;
+    font-size: 12pt;
+}
+
+.TRS_Editor .TRS_Editor UL {
+    line-height: 1.5;
+    font-family: 宋体;
+    font-size: 12pt;
+}
+
+.TRS_Editor .TRS_Editor LI {
+    line-height: 1.5;
+    font-family: 宋体;
+    font-size: 12pt;
+}
+
+.TRS_UEDITOR{
+    padding:0;
+    word-wrap:break-word;
+    cursor:text;
+    /* overflow:hidden; //éœ€è¦ç¼–è¾‘å™¨å†…éƒ¨å‡ºæ»šåŠ¨æ¡æ—¶ä¸èƒ½éšè— */
+    border:1px dotted #f5f5f5;
+    padding-top: 1em;/* è§£å†³å…¨é€‰åˆ é™¤æ—¶çš„å…‰æ ‡è·³é—ªæƒ…å†µ */
+}
+
+.TRS_UEDITOR table{
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    display: table;
+}
+
+.TRS_UEDITOR>p:first-child {
+    margin-top: 0; /* è§£å†³å…¨é€‰åˆ é™¤æ—¶çš„å…‰æ ‡è·³é—ªæƒ…å†µ */
+}
+.TRS_UEDITOR img {
+    max-width: 100%;
+    max-height: 100%;
+    /* width: auto; */
+    height: auto;
+}
+.TRS_UEDITOR strong {
+    font-weight: bold;
+}
+.TRS_UEDITOR .anchorclass {
+    height: 16px!important;
+}
+
+.trs_paper_default{
+    margin:40px auto;
+}
+.trs_paper_default2{
+    margin:40px auto;
+}
+.trs_paper_default_order{
+    margin:40px auto;
+}
+.trs_paper_A4{
+    width:637px;
+    margin:40px auto;
+}
+.trs_paper_B5{
+    width:597px;
+    margin:40px auto;
+}
+
+.trs_page_separator {
+    display: block;
+    height: 10px;
+    background-color: grey;
+    margin-bottom: 10px;
+}
+div[class="ue_table"]{
+    /* width:100%;*/
+    overflow-x: auto;
+    padding-right: 2px; /* è®©å¯¼å…¥çš„è¡¨æ ¼å³ä¾§è¡¨æ ¼çº¿æ˜¾ç¤ºå‡ºæ¥ */
+}
+/* Template */
+h1[class="ue_t"],h1[class='ue_customstyle']{
+    border-bottom-color:#cccccc;
+    border-bottom-width:2px;
+    border-bottom-style:solid;
+    padding:0px 4px 0px 0px;
+    text-align:center;
+    margin:0px 0px 20px;
+    color:#c0504d;
+}
+h3[class="ue_t"]{
+   font-family:'å¹¼åœ†';
+}
+/*p span{
+    line-height: 1.5em;
+}*/
+.edui-faked-video{
+    background: url("../images/videologo.gif") no-repeat center;
+    border: 1px solid #e4e4e4;
+    float: none;
+}
